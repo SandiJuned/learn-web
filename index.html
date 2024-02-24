@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar html otodidak</title>
+ <!--meta-->
+ <meta
+    name="author" content="Sandi Junaedi">
+ <meta 
+ name="description"
+ content="Belajar HTML Autodidak adalah website yang dibuat sebagai sumber belajar HTML bagi pemula secara autodidak">
+ 
+<meta
+    property="og:image" content="Aset/Image/share.jpg">
+ <meta
+    property="og:description" content="Belajar HTML Autodidak adalah website yang dibuat sebagai sumber belajar HTML bagi pemula secara autodidak">
+ <meta
+    property="og:title" content="Belajar HTML Autodidak">
+    
+<link rel="icon" href="Aset/Image/Logo-html.png">
+<!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Feather icon -->
+      <script src="https://unpkg.com/feather-icons"></script>
+    <!-- CSS style -->
+    <link rel="stylesheet" href="Aset/Style/style.css">
+ 
+  </head>
+  <body>
+
+    <!-- NAVBAR START -->
+    <nav class="navbar"> 
+    <a href="#home" class="navbar-logo"><img src="Aset/Image/Logo-html.png"> Belajar <span> HTML </span>Autodidak.</a>
+    
+    <div class="navbar-nav"> 
+    <a href="#home">Home</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#materi">Materi</a>
+    <a href="#contact">Kontak</a>
+    <div class="ikon">
+     <a href="https://www.linkedin.com/in/sandi-junaedi-482a65250" id="linked"><i data-feather="linkedin"></i></a>
+    <a href="https://github.com/SandiJuned" id="github"><i data-feather="github"></i></a>
+    <a href="https://youtube.com/@kathunivers" id="yt"><i data-feather="youtube"></i></a>
+    </div>
+    </div>
+    
+    <div class="navbar-extra"> 
+    
+    <a href="#" id="menu"><i data-feather="menu"></i></a>
+    </div>
+    </nav>
+     <!-- NAVBAR END -->
+     
+     <!-- HERO SECTION START -->
+     <section class="hero" id="home">
+       <div>
+       <main class="content">
+         <h1> Memulai dengan <span>HTML</span></h1>
+         
+         <p> Ingin belajar web programming? atau ingin belajar pemrograman untuk hal lain? HTML adalah langkah awal yang tepat! ini mudah, memiliki komunitas yang luas, dan ramah bagi pemula.</p>
+         <a href="Blog/Materi/Pendahuluan.html" class="cta">Mulai Belajar</a>
+         </div>
+         
+        <img src="Aset/Image/hero.png">
+       </main>
+     </section>
+     <!-- HERO SECTION END -->
+     
+     <!-- TENTANG START -->
+     
+     <!--
+     <section class="tentang" id="tentang">
+       <h2> Tentang</h2>
+       <br>
+       <div>
+       <figure>
+       <img src="Aset/Image/tentang.jpg">
+       <figcaption>Author : Sandi Junaedi</figcaption>
+       </figure>
+       
+       <p>Belajar HTML autodidak adalah website sederhana yang saya buat untuk berbagi mengenai pemahaman yang saya dapatkan dari mempelajari bahasa markah ini secara autodidak. Menurut saya html adalah bahasa pertama yang cocok kita pelajari saat ingin ngoding untuk pertama kali. Walaupun ini bukan bahasa pemrograman, tapi ini sangat bagus untuk melatih ketelitian kita sebelum mempelajari yang lainya. Di website ini saya telah merangkum apa saja yang harus kita pelajari. Semoga ini dapat membantu kalian yang sedang ingin belajar HTML. Tentunya website ini masih memiliki banyak sekali kekurangan dan saya masih terus belajar untuk menyempurnakan website ini🔥.</p>
+       </div>
+     </section>
+     -->
+     <!-- TENTANG END -->
+     
+     <!---Materi start-->
+     <section class="materi" id="materi">
+       <h2> Materi </h2>
+       <p> Dibawah ini terdapat tiga card, card pertama berisi kumpulan materi HTML5 yang bisa kalian pelajari, didalamnya juga terdapat latihan di setiap babnya yang dapat menguji pemahaman kalian. Card ke-dua berisi source code dan juga penjelasan dari latihan yang ada di card materi lihat ini jika kamu buntu dalam mengerjakan latihan di bab materi.Terakhir card ke-tiga berisi kumpulan tag dan atribut html lengkap dengan penjelasan dan cara penggunaannya yang dapat kalian jadikan refrensi.  </p>
+    <div >
+    
+      <div class="card">
+        <a href="Blog/Materi/Pendahuluan.html">
+        <img src="Aset/Image/materi.jpg" alt="Gambar Card">
+        <h3>Materi</h3>
+        <p>Ini berisi kumpulan materi HTML5</p>
+        </a>
+    </div>
+
+     <div class="card">
+       <a href="">
+        <img src="Aset/Image/pembahasan.jpg" alt="Gambar Card">
+        <h3>Source code</h3>
+        <p>Ini berisi kode penyelesaian dari tugas html di modul materi.</p>
+        </a>
+    </div>
+    
+    <div class="card">
+        <a href="">
+        <img src="Aset/Image/tag.jpg" alt="Gambar Card">
+        <h3>Tag dan Atribut</h3>
+        <p>Ini berisi kumpulan refrensi tag dan atribut HTML5.</p>
+         </a>
+    </div>
+    </div> 
+     </section>
+     <!---Materi end-->
+     
+     <!-- Contact strat -->
+     <section class="contact" id="contact">
+    <h1>Contact</h1>
+    <form>
+      <input type="text" name="name" placeholder="Your Name">
+      <input class="email" type="email" name="email" placeholder="Your Email">
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+   <!-- Contact end-->
+   
+   <!---footer start-->
+   <footer >
+     <div class="sosial" >
+    <a href="https://youtube.com/@kathunivers" id="yt"><i data-feather="youtube"></i></a>
+    <a href="https://instagram.com/kathodon7?igshid=NGExMmI2YTkyZg==" id="Instagram"><i data-feather="instagram"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100088729250231&mibextid=ZbWKwLokid="fb"><i data-feather="facebook"></i></a>
+    <a href="https://www.linkedin.com/in/sandi-junaedi-482a65250" id="linked"><i data-feather="linkedin"></i></a>
+    <a href=""https://github.com/SandiJuned" id="github"><i data-feather="github"></i></a>
+     </div>
+     <div class="credit" >
+       <p >Created by <a href="https://instagram.com/kathodon7?igshid=NGExMmI2YTkyZg==">Sandi Junaedi</a> |&copy;2023.</p>
+     </div>
+   </footer>
+   
+   <!---footer end-->
+    <!-- feather icons-->
+    <script>
+      feather.replace()
+    </script>
+    
+    <!-- my javascript -->
+    <script src="Aset/App/main.js"></script>
+    
+  </body>
+</html>
