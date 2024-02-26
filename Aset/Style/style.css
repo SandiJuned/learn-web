@@ -20,7 +20,7 @@ body{
 
 .guer{
   height:20px;
-  weight:20px;
+  width:20px;
   background: white;
 }
 
@@ -35,7 +35,7 @@ body{
   top:0;
   left:0;
   right:0;
-  z-index: 999;
+  z-index: 99;
 }
 
 .navbar .navbar-logo{
@@ -45,11 +45,11 @@ body{
 }
 
 .navbar .navbar-logo img{
-  width: 1.6rem;
+  width: 20px;
 }
 
 .navbar .navbar-logo span{
-  color: var(--primary);
+  color: #3544e6;
 }
 
 .navbar .navbar-nav{
@@ -108,15 +108,15 @@ transition:0.3s linear;
 .hero div .content h1{
   font-size: 5rem;
   color:#fff;
-  text-shadow: 2px 2px 4px #db5123;
+  text-shadow: 2px 2px 4px #3544e6;
   line-height: 5rem;
 }
 
 .hero div .content h1 span{
-  color:var(--primary);
+  color:#3544e6;
 }
 .hero .content div h1 span:hover{
-  color:#db5123 ;
+  color:#3544e6 ;
 }
 
 .hero div .content p{
@@ -131,7 +131,7 @@ transition:0.3s linear;
 .hero div .content .cta{
   color:#fff;
   font-weight: 400;
-  background:var(--primary);
+  background:#3544e6;
   font-size: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
@@ -148,20 +148,20 @@ transition:0.3s linear;
 
 /* Tentang */
 h1 {
-  color: #d46115;
+  color: #3544e6;
   font-weight: 600;
   font-size: 3rem;
   opacity: 0.8;
 }
 h2,
 p {
-  color: #d46115;
+  color: #3544e6;
   font-weight: 500;
   opacity: 0.8;
 }
 
 h3 {
-  color: #d46115;
+  color: #3544e6;
   font-weight: 600;
   opacity: 0.8;
 }
@@ -169,7 +169,7 @@ h3 {
 .main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #ed7409, #edb009);
+  background: linear-gradient(to right top, #3544e6, #85c9ed);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -247,7 +247,7 @@ h3 {
 }
 
 .pro {
-  background: linear-gradient(to right top, #ed7409, #edb009);
+  background: linear-gradient(to right top, #3544e6, #85c9ed);
   border-radius: 2rem;
   color: white;
   padding: 1rem;
@@ -382,6 +382,7 @@ h3 {
 .materi{
  box-shadow:0 2px 4px rgba(0,0,0,0.1);
  padding: 8rem 7% 2rem 7%;
+ 
 }
 .materi h2{
   font-size: 5rem;
@@ -396,6 +397,7 @@ h3 {
 }
 .materi div{
   display: flex;
+  justify-content: center;
 }
   .card {
     flex-wrap:wrap;
@@ -453,7 +455,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: var(--primary);
+  background-color: #3544e6;
   color: white;
   border: none;
   cursor: pointer;
@@ -737,20 +739,20 @@ form {
  
  /* Tentang */
 h1 {
-  color: #d46115;
+  color: #3544e6;
   font-weight: 600;
   font-size: 3rem;
   opacity: 0.8;
 }
 h2,
 p {
-  color: #d46115;
+  color: #3544e6;
   font-weight: 500;
   opacity: 0.8;
 }
 
 h3 {
-  color: #d46115;
+  color: #3544e6;
   font-weight: 600;
   opacity: 0.8;
 }
@@ -758,7 +760,7 @@ h3 {
 .main {
   font-family: "Poppins", sans-serif;
   min-height: 20vh;
-  background: linear-gradient(to right top, #ed7409, #edb009);
+  background: linear-gradient(to right top, #3544e6, #85c9ed);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -837,7 +839,7 @@ h3 {
 }
 
 .pro {
-  background: linear-gradient(to right top, #ed7409, #edb009);
+  background: linear-gradient(to right top, #3544e6, #85c9ed);
   border-radius: 2rem;
   color: white;
   padding: 1rem;

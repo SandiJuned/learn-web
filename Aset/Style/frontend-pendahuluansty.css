@@ -1,0 +1,26 @@
+body{
+  background-color: white;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px ;
+}
+
+.scane{
+  position: relative;
+}
+
+.ball{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background:#34b1eb;
+  position:absolute;
+}
+
+.cube{
+  width: 3em;
+  height: 3em;
+  background:#eb3434;
+}
