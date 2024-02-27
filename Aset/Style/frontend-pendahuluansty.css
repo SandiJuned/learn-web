@@ -1,4 +1,4 @@
-body{
+main{
   background-color: white;
   min-height: 100vh;
   display:flex;
@@ -16,11 +16,18 @@ body{
   height: 1em;
   border-radius: 50%;
   background:#34b1eb;
+  
   position:absolute;
+  left:45%;
+  bottom:50%;
 }
 
 .cube{
   width: 3em;
   height: 3em;
-  background:#eb3434;
+  background:rgb(252, 186, 3,0.2);
+  
+  position:absolute;
+  top:50%;
+  left:30%;
 }
